@@ -9,6 +9,7 @@ Widget build(BuildContext context) {
 print("Device width: ${MediaQuery.of(context).size.width}");
 print("Device height: ${MediaQuery.of(context).size.height}");
 return MaterialApp(
+  debugShowCheckedModeBanner: false,
 home: Scaffold(
 appBar: AppBar(
 title: const Text(
